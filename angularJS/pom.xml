@@ -10,6 +10,7 @@
     <packaging>war</packaging>
 
     <dependencies>
+
         <!-- https://mvnrepository.com/artifact/javax.activation/activation -->
         <dependency>
             <groupId>javax.activation</groupId>

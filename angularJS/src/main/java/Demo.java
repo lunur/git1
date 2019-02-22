@@ -16,6 +16,7 @@ public class Demo {
         //10000
         //3000
         //2000
+        //2000
         InputStream is = so.getInputStream();
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
         String line = null;

@@ -14,7 +14,6 @@ public class Demo {
         ServerSocket ss = new ServerSocket(9999);
         Socket so = ss.accept();
         //100002
-        //30
         InputStream is = so.getInputStream();
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
         String line = null;

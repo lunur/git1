@@ -14,8 +14,6 @@ public class Demo {
         ServerSocket ss = new ServerSocket(9999);
         Socket so = ss.accept();
         //10000
-        //3000
-        //2000
         //2000
         InputStream is = so.getInputStream();
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
